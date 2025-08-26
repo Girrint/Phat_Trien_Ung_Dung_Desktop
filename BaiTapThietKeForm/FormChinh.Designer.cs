@@ -1,6 +1,6 @@
 ﻿namespace BaiTapThietKeForm
 {
-	partial class Form1
+	partial class FormChinh
 	{
 		/// <summary>
 		/// Required designer variable.

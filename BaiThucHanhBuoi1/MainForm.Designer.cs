@@ -51,6 +51,7 @@
 			this.txtTen.Name = "txtTen";
 			this.txtTen.Size = new System.Drawing.Size(140, 20);
 			this.txtTen.TabIndex = 1;
+			this.txtTen.TextChanged += new System.EventHandler(this.txtTen_TextChanged);
 			// 
 			// btnOK
 			// 
@@ -75,8 +76,10 @@
 			// 
 			this.txtSaoChep.Location = new System.Drawing.Point(210, 215);
 			this.txtSaoChep.Name = "txtSaoChep";
+			this.txtSaoChep.ReadOnly = true;
 			this.txtSaoChep.Size = new System.Drawing.Size(138, 20);
 			this.txtSaoChep.TabIndex = 4;
+			this.txtSaoChep.TextChanged += new System.EventHandler(this.txtSaoChep_TextChanged);
 			// 
 			// btnSaoChep
 			// 

@@ -19,7 +19,14 @@ namespace Bai2
 
 		private void rdNam_CheckedChanged(object sender, EventArgs e)
 		{
+			if (rdNam.Checked)
+				MessageBox.Show("Bạn chọn giới tính Nam", "Thông báo");
+		}
 
+		private void rdNu_CheckedChanged(object sender, EventArgs e)
+		{
+			if (rdNu.Checked)
+				MessageBox.Show("Bạn chọn giới tính Nữ", "Thông báo");
 		}
 	}
 }

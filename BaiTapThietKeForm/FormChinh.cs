@@ -16,5 +16,11 @@ namespace BaiTapThietKeForm
 		{
 			InitializeComponent();
 		}
+
+		private void tsmiBai1_Click(object sender, EventArgs e)
+		{
+			var form = new frmBai1();
+			form.ShowDialog();
+		}
 	}
 }

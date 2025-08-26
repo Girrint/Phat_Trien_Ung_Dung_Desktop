@@ -62,6 +62,7 @@
 			this.tsmiBai1.Name = "tsmiBai1";
 			this.tsmiBai1.Size = new System.Drawing.Size(180, 22);
 			this.tsmiBai1.Text = "Bài 1";
+			this.tsmiBai1.Click += new System.EventHandler(this.tsmiBai1_Click);
 			// 
 			// tsmiBai2
 			// 
@@ -77,14 +78,14 @@
 			this.tsmiBai3.Size = new System.Drawing.Size(180, 22);
 			this.tsmiBai3.Text = "Bài 3";
 			// 
-			// Form1
+			// FormChinh
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
 			this.Controls.Add(this.menuStrip1);
 			this.MainMenuStrip = this.menuStrip1;
-			this.Name = "Form1";
+			this.Name = "FormChinh";
 			this.Text = "Chương trình chính";
 			this.menuStrip1.ResumeLayout(false);
 			this.menuStrip1.PerformLayout();

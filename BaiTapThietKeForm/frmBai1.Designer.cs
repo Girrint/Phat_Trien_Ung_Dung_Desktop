@@ -78,6 +78,7 @@
 			this.rdXanh.TabStop = true;
 			this.rdXanh.Text = "Xanh";
 			this.rdXanh.UseVisualStyleBackColor = true;
+			this.rdXanh.CheckedChanged += new System.EventHandler(this.rdXanh_CheckedChanged);
 			// 
 			// rdDo
 			// 
@@ -88,6 +89,7 @@
 			this.rdDo.TabIndex = 1;
 			this.rdDo.Text = "Đỏ";
 			this.rdDo.UseVisualStyleBackColor = true;
+			this.rdDo.CheckedChanged += new System.EventHandler(this.rdDo_CheckedChanged);
 			// 
 			// rdTrang
 			// 
@@ -98,6 +100,7 @@
 			this.rdTrang.TabIndex = 2;
 			this.rdTrang.Text = "Trắng";
 			this.rdTrang.UseVisualStyleBackColor = true;
+			this.rdTrang.CheckedChanged += new System.EventHandler(this.rdTrang_CheckedChanged);
 			// 
 			// label1
 			// 
@@ -154,6 +157,7 @@
 			this.btnTinhTien.TabIndex = 7;
 			this.btnTinhTien.Text = "Tính tiền";
 			this.btnTinhTien.UseVisualStyleBackColor = true;
+			this.btnTinhTien.Click += new System.EventHandler(this.btnTinhTien_Click);
 			// 
 			// label4
 			// 

@@ -16,5 +16,10 @@ namespace Bai2
 		{
 			InitializeComponent();
 		}
+
+		private void rdNam_CheckedChanged(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

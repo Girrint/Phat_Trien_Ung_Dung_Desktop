@@ -23,5 +23,10 @@ namespace BaiThucHanhBuoi1
 
 			MessageBox.Show($"Xin chào bạn {TenDaNhap}. Rất vui được gặp bạn.", "Thông điệp chào mừng");
 		}
+
+		private void btnSaoChep_Click(object sender, EventArgs e)
+		{
+			txtSaoChep.Text = txtTen.Text;
+		}
 	}
 }

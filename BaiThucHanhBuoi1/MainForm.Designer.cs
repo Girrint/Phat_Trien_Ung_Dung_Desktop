@@ -31,6 +31,9 @@
 			this.label1 = new System.Windows.Forms.Label();
 			this.txtTen = new System.Windows.Forms.TextBox();
 			this.btnOK = new System.Windows.Forms.Button();
+			this.label2 = new System.Windows.Forms.Label();
+			this.txtSaoChep = new System.Windows.Forms.TextBox();
+			this.btnSaoChep = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -44,7 +47,7 @@
 			// 
 			// txtTen
 			// 
-			this.txtTen.Location = new System.Drawing.Point(197, 93);
+			this.txtTen.Location = new System.Drawing.Point(209, 95);
 			this.txtTen.Name = "txtTen";
 			this.txtTen.Size = new System.Drawing.Size(140, 20);
 			this.txtTen.TabIndex = 1;
@@ -59,11 +62,40 @@
 			this.btnOK.UseVisualStyleBackColor = true;
 			this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
 			// 
+			// label2
+			// 
+			this.label2.AutoSize = true;
+			this.label2.Location = new System.Drawing.Point(79, 219);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(72, 13);
+			this.label2.TabIndex = 3;
+			this.label2.Text = "Bạn đã nhập:";
+			// 
+			// txtSaoChep
+			// 
+			this.txtSaoChep.Location = new System.Drawing.Point(210, 215);
+			this.txtSaoChep.Name = "txtSaoChep";
+			this.txtSaoChep.Size = new System.Drawing.Size(138, 20);
+			this.txtSaoChep.TabIndex = 4;
+			// 
+			// btnSaoChep
+			// 
+			this.btnSaoChep.Location = new System.Drawing.Point(293, 151);
+			this.btnSaoChep.Name = "btnSaoChep";
+			this.btnSaoChep.Size = new System.Drawing.Size(71, 26);
+			this.btnSaoChep.TabIndex = 5;
+			this.btnSaoChep.Text = "Sao chép";
+			this.btnSaoChep.UseVisualStyleBackColor = true;
+			this.btnSaoChep.Click += new System.EventHandler(this.btnSaoChep_Click);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.Controls.Add(this.btnSaoChep);
+			this.Controls.Add(this.txtSaoChep);
+			this.Controls.Add(this.label2);
 			this.Controls.Add(this.btnOK);
 			this.Controls.Add(this.txtTen);
 			this.Controls.Add(this.label1);
@@ -79,6 +111,9 @@
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.TextBox txtTen;
 		private System.Windows.Forms.Button btnOK;
+		private System.Windows.Forms.Label label2;
+		private System.Windows.Forms.TextBox txtSaoChep;
+		private System.Windows.Forms.Button btnSaoChep;
 	}
 }
 

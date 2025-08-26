@@ -28,5 +28,13 @@ namespace Bai2
 			if (rdNu.Checked)
 				MessageBox.Show("Bạn chọn giới tính Nữ", "Thông báo");
 		}
+
+		private void btnToMau_Click(object sender, EventArgs e)
+		{
+			if (rdDo.Checked)
+				txtHopMau.BackColor = Color.Red;
+			else
+				txtHopMau.BackColor= Color.Green;
+		}
 	}
 }

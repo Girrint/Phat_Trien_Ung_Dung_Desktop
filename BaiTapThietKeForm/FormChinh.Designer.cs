@@ -70,6 +70,7 @@
 			this.tsmiBai2.Name = "tsmiBai2";
 			this.tsmiBai2.Size = new System.Drawing.Size(180, 22);
 			this.tsmiBai2.Text = "Bài 2";
+			this.tsmiBai2.Click += new System.EventHandler(this.tsmiBai2_Click);
 			// 
 			// tsmiBai3
 			// 

@@ -58,6 +58,12 @@
     <Compile Include="frmBai1.Designer.cs">
       <DependentUpon>frmBai1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmBai2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBai2.Designer.cs">
+      <DependentUpon>frmBai2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormChinh.resx">
@@ -65,6 +71,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmBai1.resx">
       <DependentUpon>frmBai1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBai2.resx">
+      <DependentUpon>frmBai2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

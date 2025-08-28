@@ -33,6 +33,7 @@
 			this.tsmiBai1 = new System.Windows.Forms.ToolStripMenuItem();
 			this.tsmiBai2 = new System.Windows.Forms.ToolStripMenuItem();
 			this.tsmiBai3 = new System.Windows.Forms.ToolStripMenuItem();
+			this.tsmiBai4 = new System.Windows.Forms.ToolStripMenuItem();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -51,7 +52,8 @@
 			this.phanVănNhậtTrườngToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiBai1,
             this.tsmiBai2,
-            this.tsmiBai3});
+            this.tsmiBai3,
+            this.tsmiBai4});
 			this.phanVănNhậtTrườngToolStripMenuItem.Name = "phanVănNhậtTrườngToolStripMenuItem";
 			this.phanVănNhậtTrườngToolStripMenuItem.Size = new System.Drawing.Size(138, 20);
 			this.phanVănNhậtTrườngToolStripMenuItem.Text = "Phan Văn Nhật Trường";
@@ -80,6 +82,14 @@
 			this.tsmiBai3.Text = "Bài 3";
 			this.tsmiBai3.Click += new System.EventHandler(this.tsmiBai3_Click);
 			// 
+			// tsmiBai4
+			// 
+			this.tsmiBai4.Image = global::BaiTapThietKeForm.Properties.Resources.note2;
+			this.tsmiBai4.Name = "tsmiBai4";
+			this.tsmiBai4.Size = new System.Drawing.Size(180, 22);
+			this.tsmiBai4.Text = "Bài 4";
+			this.tsmiBai4.Click += new System.EventHandler(this.tsmiBai4_Click);
+			// 
 			// FormChinh
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -103,6 +113,7 @@
 		private System.Windows.Forms.ToolStripMenuItem tsmiBai1;
 		private System.Windows.Forms.ToolStripMenuItem tsmiBai2;
 		private System.Windows.Forms.ToolStripMenuItem tsmiBai3;
+		private System.Windows.Forms.ToolStripMenuItem tsmiBai4;
 	}
 }
 

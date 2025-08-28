@@ -34,5 +34,11 @@ namespace BaiTapThietKeForm
 			var frm = new frmBai3();
 			frm.ShowDialog();
 		}
+
+		private void tsmiBai4_Click(object sender, EventArgs e)
+		{
+			var frm new frmBai4();
+			frm.ShowDialog();
+		}
 	}
 }

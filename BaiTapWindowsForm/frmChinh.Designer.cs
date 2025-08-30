@@ -54,6 +54,7 @@
 			this.tsbBai1.Name = "tsbBai1";
 			this.tsbBai1.Size = new System.Drawing.Size(52, 22);
 			this.tsbBai1.Text = "Bài 1";
+			this.tsbBai1.Click += new System.EventHandler(this.tsbBai1_Click);
 			// 
 			// tsbBai2
 			// 

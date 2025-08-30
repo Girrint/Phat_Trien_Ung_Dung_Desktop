@@ -136,6 +136,7 @@
 			this.btnXemKq.TabIndex = 7;
 			this.btnXemKq.Text = "Xem kết quả";
 			this.btnXemKq.UseVisualStyleBackColor = true;
+			this.btnXemKq.Click += new System.EventHandler(this.btnXemKq_Click);
 			// 
 			// label4
 			// 

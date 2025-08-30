@@ -21,5 +21,20 @@ namespace BaiTapWindowsForm
 		{
 
 		}
+
+		private void btnXemKq_Click(object sender, EventArgs e)
+		{
+			int kq = 0;
+			int a = int.Parse(txtSoA.Text);
+			int b = int.Parse(txtSoB.Text);
+			int n = int.Parse(txtSoN.Text);
+
+			if (rdTongAB.Checked)
+				TinhToan.CongHaiSo(a, b, ref kq)
+			else
+				kq = TinhToan.TongDaySo(n);
+
+			lblKetQua.Text = kq.ToString();
+		}
 	}
 }

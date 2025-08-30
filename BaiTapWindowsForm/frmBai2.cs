@@ -16,5 +16,34 @@ namespace BaiTapWindowsForm
 		{
 			InitializeComponent();
 		}
+
+		private void cbTenHang_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			var stt = cbTenHang.SelectedIndex;
+			switch(stt)
+			{
+				case 0:
+					txtDonGia.Text = "100000";
+					break;
+				case 1:
+					txtDonGia.Text = "2000000";
+					break;
+				case 2:
+					txtDonGia.Text = "150000";
+					break;
+			}
+		}
+
+		private void btnTinhTien_Click(object sender, EventArgs e)
+		{
+			int donGia = int.Parse(txtDonGia.Text);
+			int soLuong = int.Parse(txtSoLuong.Text);
+			double thanhTien = 0;
+
+			if (rdChuyenKhoan.Checked)
+				thanhTien = donGia * soLuong * 0.95;
+			
+			lblSoTien.Text = thanhTien.ToString();
+		}
 	}
 }

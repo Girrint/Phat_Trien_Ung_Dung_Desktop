@@ -81,6 +81,7 @@
 			this.cbTenHang.Name = "cbTenHang";
 			this.cbTenHang.Size = new System.Drawing.Size(158, 21);
 			this.cbTenHang.TabIndex = 3;
+			this.cbTenHang.SelectedIndexChanged += new System.EventHandler(this.cbTenHang_SelectedIndexChanged);
 			// 
 			// txtDonGia
 			// 
@@ -137,6 +138,7 @@
 			this.btnTinhTien.TabIndex = 7;
 			this.btnTinhTien.Text = "Tính tiền";
 			this.btnTinhTien.UseVisualStyleBackColor = true;
+			this.btnTinhTien.Click += new System.EventHandler(this.btnTinhTien_Click);
 			// 
 			// label4
 			// 

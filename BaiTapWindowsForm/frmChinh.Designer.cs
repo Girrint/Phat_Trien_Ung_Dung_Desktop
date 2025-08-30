@@ -63,6 +63,7 @@
 			this.tsbBai2.Name = "tsbBai2";
 			this.tsbBai2.Size = new System.Drawing.Size(52, 22);
 			this.tsbBai2.Text = "Bài 2";
+			this.tsbBai2.Click += new System.EventHandler(this.tsbBai2_Click);
 			// 
 			// tsbBai3
 			// 

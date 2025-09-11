@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\KetQuaXoSo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98602CA8-9166-4A42-8223-06D3FB34F4CB}|KetQuaXoSo\\KetQuaXoSo.csproj|C:\\Users\\Administrator\\source\\repos\\KetQuaXoSo\\ketquaxoso\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{98602CA8-9166-4A42-8223-06D3FB34F4CB}|KetQuaXoSo\\KetQuaXoSo.csproj|solutionrelative:ketquaxoso\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98602CA8-9166-4A42-8223-06D3FB34F4CB}|KetQuaXoSo\\KetQuaXoSo.csproj|c:\\users\\administrator\\source\\repos\\ketquaxoso\\ketquaxoso\\xosohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98602CA8-9166-4A42-8223-06D3FB34F4CB}|KetQuaXoSo\\KetQuaXoSo.csproj|solutionrelative:ketquaxoso\\xosohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98602CA8-9166-4A42-8223-06D3FB34F4CB}|KetQuaXoSo\\KetQuaXoSo.csproj|C:\\Users\\Administrator\\source\\repos\\KetQuaXoSo\\ketquaxoso\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98602CA8-9166-4A42-8223-06D3FB34F4CB}|KetQuaXoSo\\KetQuaXoSo.csproj|solutionrelative:ketquaxoso\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "XoSoHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\KetQuaXoSo\\KetQuaXoSo\\XoSoHelper.cs",
+              "RelativeDocumentMoniker": "KetQuaXoSo\\XoSoHelper.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\KetQuaXoSo\\KetQuaXoSo\\XoSoHelper.cs",
+              "RelativeToolTip": "KetQuaXoSo\\XoSoHelper.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAowOsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T06:06:47.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\KetQuaXoSo\\KetQuaXoSo\\MainForm.cs",
+              "RelativeDocumentMoniker": "KetQuaXoSo\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\KetQuaXoSo\\KetQuaXoSo\\MainForm.cs*",
+              "RelativeToolTip": "KetQuaXoSo\\MainForm.cs*",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAFAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T08:35:22.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\KetQuaXoSo\\KetQuaXoSo\\MainForm.cs",
+              "RelativeDocumentMoniker": "KetQuaXoSo\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\KetQuaXoSo\\KetQuaXoSo\\MainForm.cs [Design]*",
+              "RelativeToolTip": "KetQuaXoSo\\MainForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T08:27:57.183Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

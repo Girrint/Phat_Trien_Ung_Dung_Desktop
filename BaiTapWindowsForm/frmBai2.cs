@@ -42,8 +42,9 @@ namespace BaiTapWindowsForm
 
 			if (rdChuyenKhoan.Checked)
 				thanhTien = donGia * soLuong * 0.95;
-			
-			lblSoTien.Text = thanhTien.ToString();
+			else if (rdTienMat.Checked)
+				thanhTien = donGia * soLuong;
+				lblSoTien.Text = thanhTien.ToString();
 		}
 	}
 }

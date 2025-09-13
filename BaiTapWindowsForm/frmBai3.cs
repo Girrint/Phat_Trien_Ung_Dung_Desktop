@@ -30,7 +30,7 @@ namespace BaiTapWindowsForm
 			int n = int.Parse(txtSoN.Text);
 
 			if (rdTongAB.Checked)
-				TinhToan.CongHaiSo(a, b, ref kq)
+				TinhToan.CongHaiSo(a, b, ref kq);
 			else
 				kq = TinhToan.TongDaySo(n);
 

@@ -16,7 +16,7 @@ namespace BaiTapWindowsForm
 		public static int TongDaySo(int n)
 		{
 			int tong = 0;
-			for(int i = 1; i < n; i++)
+			for(int i = 1; i <= n; i++)
 			{
 				tong += i;
 			}

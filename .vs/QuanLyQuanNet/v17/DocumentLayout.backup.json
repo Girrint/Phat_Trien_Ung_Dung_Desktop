@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\QuanLyQuanNet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{429AB7BF-3C01-47EE-906C-5388FB1480F1}|QuanLyQuanNet\\QuanLyQuanNet.csproj|C:\\Users\\Administrator\\source\\repos\\QuanLyQuanNet\\quanlyquannet\\frmqlmaytinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{429AB7BF-3C01-47EE-906C-5388FB1480F1}|QuanLyQuanNet\\QuanLyQuanNet.csproj|solutionrelative:quanlyquannet\\frmqlmaytinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{429AB7BF-3C01-47EE-906C-5388FB1480F1}|QuanLyQuanNet\\QuanLyQuanNet.csproj|C:\\Users\\Administrator\\source\\repos\\QuanLyQuanNet\\quanlyquannet\\frmqlorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{429AB7BF-3C01-47EE-906C-5388FB1480F1}|QuanLyQuanNet\\QuanLyQuanNet.csproj|solutionrelative:quanlyquannet\\frmqlorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{429AB7BF-3C01-47EE-906C-5388FB1480F1}|QuanLyQuanNet\\QuanLyQuanNet.csproj|C:\\Users\\Administrator\\source\\repos\\QuanLyQuanNet\\quanlyquannet\\frmqltaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{429AB7BF-3C01-47EE-906C-5388FB1480F1}|QuanLyQuanNet\\QuanLyQuanNet.csproj|solutionrelative:quanlyquannet\\frmqltaikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{429AB7BF-3C01-47EE-906C-5388FB1480F1}|QuanLyQuanNet\\QuanLyQuanNet.csproj|C:\\Users\\Administrator\\source\\repos\\QuanLyQuanNet\\quanlyquannet\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{429AB7BF-3C01-47EE-906C-5388FB1480F1}|QuanLyQuanNet\\QuanLyQuanNet.csproj|solutionrelative:quanlyquannet\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmQLOrder.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\QuanLyQuanNet\\QuanLyQuanNet\\frmQLOrder.cs",
+              "RelativeDocumentMoniker": "QuanLyQuanNet\\frmQLOrder.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\QuanLyQuanNet\\QuanLyQuanNet\\frmQLOrder.cs [Design]",
+              "RelativeToolTip": "QuanLyQuanNet\\frmQLOrder.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T14:48:16.43Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmQLTaiKhoan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\QuanLyQuanNet\\QuanLyQuanNet\\frmQLTaiKhoan.cs",
+              "RelativeDocumentMoniker": "QuanLyQuanNet\\frmQLTaiKhoan.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\QuanLyQuanNet\\QuanLyQuanNet\\frmQLTaiKhoan.cs [Design]",
+              "RelativeToolTip": "QuanLyQuanNet\\frmQLTaiKhoan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T14:42:30.733Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmQLMayTinh.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\QuanLyQuanNet\\QuanLyQuanNet\\frmQLMayTinh.cs",
+              "RelativeDocumentMoniker": "QuanLyQuanNet\\frmQLMayTinh.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\QuanLyQuanNet\\QuanLyQuanNet\\frmQLMayTinh.cs [Design]",
+              "RelativeToolTip": "QuanLyQuanNet\\frmQLMayTinh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T14:36:25.45Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\QuanLyQuanNet\\QuanLyQuanNet\\MainForm.cs",
+              "RelativeDocumentMoniker": "QuanLyQuanNet\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\QuanLyQuanNet\\QuanLyQuanNet\\MainForm.cs [Design]",
+              "RelativeToolTip": "QuanLyQuanNet\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T13:41:58.874Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

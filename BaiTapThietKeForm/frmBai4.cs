@@ -31,13 +31,19 @@ namespace BaiTapThietKeForm
 		private void btnTim_Click(object sender, EventArgs e)
 		{
 			int soCanTim = int.Parse(txtSo.Text);
+
 			lblKetQua.Text = "Không tìm thấy";
-			foreach (int so in listBox1.Items)
+			foreach (int s in listBox1.Items)
 			{
-				if (so == soCanTim)
+				if (s == soCanTim)
+				{
 					lblKetQua.Text = "Tìm thấy";
-				break;
-					
+					break;
+				}
+				else
+				{
+					lblKetQua.Text = "Không tìm thấy";
+				}
 			}
 		}
 	}

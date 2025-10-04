@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\StudentApp\\StudentApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7C2567E6-46A5-4850-8A97-1AC0CEAD1C7F}|StudentApp.csproj|C:\\Users\\Administrator\\source\\repos\\StudentApp\\StudentApp\\sinhvienj.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7C2567E6-46A5-4850-8A97-1AC0CEAD1C7F}|StudentApp.csproj|solutionrelative:sinhvienj.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7C2567E6-46A5-4850-8A97-1AC0CEAD1C7F}|StudentApp.csproj|c:\\users\\administrator\\source\\repos\\studentapp\\studentapp\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{7C2567E6-46A5-4850-8A97-1AC0CEAD1C7F}|StudentApp.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -35,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{7C2567E6-46A5-4850-8A97-1AC0CEAD1C7F}|StudentApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C2567E6-46A5-4850-8A97-1AC0CEAD1C7F}|StudentApp.csproj|C:\\Users\\Administrator\\source\\repos\\StudentApp\\StudentApp\\sinhvienj.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7C2567E6-46A5-4850-8A97-1AC0CEAD1C7F}|StudentApp.csproj|solutionrelative:sinhvienj.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7C2567E6-46A5-4850-8A97-1AC0CEAD1C7F}|StudentApp.csproj|C:\\Users\\Administrator\\source\\repos\\StudentApp\\StudentApp\\sinhvien.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{7C2567E6-46A5-4850-8A97-1AC0CEAD1C7F}|StudentApp.csproj|solutionrelative:sinhvien.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 685,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\StudentApp\\StudentApp\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "SinhVienJ.json",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\StudentApp\\StudentApp\\SinhVienJ.json",
               "RelativeDocumentMoniker": "SinhVienJ.json",
@@ -95,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "QLSinhVien.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\StudentApp\\StudentApp\\QLSinhVien.cs",
               "RelativeDocumentMoniker": "QLSinhVien.cs",
@@ -108,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\StudentApp\\StudentApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -121,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "FileHelper.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\StudentApp\\StudentApp\\FileHelper.cs",
               "RelativeDocumentMoniker": "FileHelper.cs",
@@ -134,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\StudentApp\\StudentApp\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
@@ -147,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SinhVien2.xml",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\StudentApp\\StudentApp\\SinhVien2.xml",
               "RelativeDocumentMoniker": "SinhVien2.xml",
@@ -160,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\StudentApp\\StudentApp\\Student.cs",
               "RelativeDocumentMoniker": "Student.cs",
@@ -173,13 +173,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\StudentApp\\StudentApp\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "MainForm.Designer.cs",
               "ToolTip": "C:\\Users\\Administrator\\source\\repos\\StudentApp\\StudentApp\\MainForm.Designer.cs",
               "RelativeToolTip": "MainForm.Designer.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAwwJsBAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAwwLIBAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T11:32:13.005Z",
               "EditorCaption": ""

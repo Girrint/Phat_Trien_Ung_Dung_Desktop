@@ -163,6 +163,16 @@ namespace StudentApp
 				}
 			}
 		}
-
+		public bool Xoa(string mssv)
+		{
+			var sv = students.FirstOrDefault(s => s.MSSV == mssv);
+			if (sv != null)
+			{
+				students.Remove(sv);
+				Save();
+				return true;
+			}
+			return false;
+		}
 	}
 }

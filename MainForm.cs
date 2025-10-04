@@ -389,5 +389,34 @@ namespace StudentApp
 		{
 			LoadDataToGrid();
 		}
+
+		private void btnXoaSV_Click(object sender, EventArgs e)
+		{
+			string mssv = mtxtMSSV.Text.Trim();
+
+			if (string.IsNullOrEmpty(mssv))
+			{
+				MessageBox.Show("Vui lòng nhập MSSV cần xoá!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+				return;
+			}
+
+			var result = MessageBox.Show($"Bạn có chắc muốn xoá sinh viên có MSSV {mssv}?",
+										 "Xác nhận xoá", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+			if (result == DialogResult.Yes)
+			{
+				bool daXoa = qlSV.Xoa(mssv);
+
+				if (daXoa)
+				{
+					MessageBox.Show("Đã xoá sinh viên thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+					LoadDataToGrid();
+				}
+				else
+				{
+					MessageBox.Show("Không tìm thấy sinh viên có MSSV này!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				}
+			}
+		}
 	}
 }

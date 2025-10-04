@@ -43,8 +43,16 @@ namespace StudentApp
 			switch (ext)
 			{
 				case ".txt":
-					File.WriteAllLines(path, students.Select(s => s.ToString()));
-					break;
+					{
+						using (StreamWriter sw = new StreamWriter(path, false))
+						{
+							foreach (var s in students)
+							{
+								sw.WriteLine(s.ToString());
+							}
+						}
+						break;
+					}
 				case ".xml":
 					var serializer = new System.Xml.Serialization.XmlSerializer(typeof(List<Student>));
 					using (var fs = new FileStream(path, FileMode.Create))

@@ -57,6 +57,7 @@
 			this.mtxtMSSV = new System.Windows.Forms.MaskedTextBox();
 			this.btnXoaThongTin = new System.Windows.Forms.Button();
 			this.txtLoadTT = new System.Windows.Forms.Button();
+			this.btnXoaSV = new System.Windows.Forms.Button();
 			this.groupBox1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachSV)).BeginInit();
 			this.SuspendLayout();
@@ -255,7 +256,7 @@
 			this.groupBox1.Controls.Add(this.dgvDanhSachSV);
 			this.groupBox1.Location = new System.Drawing.Point(16, 389);
 			this.groupBox1.Name = "groupBox1";
-			this.groupBox1.Size = new System.Drawing.Size(609, 123);
+			this.groupBox1.Size = new System.Drawing.Size(609, 253);
 			this.groupBox1.TabIndex = 19;
 			this.groupBox1.TabStop = false;
 			this.groupBox1.Text = "Danh sách sinh viên";
@@ -266,7 +267,7 @@
 			this.dgvDanhSachSV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 			this.dgvDanhSachSV.Location = new System.Drawing.Point(6, 16);
 			this.dgvDanhSachSV.Name = "dgvDanhSachSV";
-			this.dgvDanhSachSV.Size = new System.Drawing.Size(597, 101);
+			this.dgvDanhSachSV.Size = new System.Drawing.Size(597, 231);
 			this.dgvDanhSachSV.TabIndex = 0;
 			this.dgvDanhSachSV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDanhSachSV_CellContentClick);
 			// 
@@ -307,7 +308,7 @@
 			// mtxtMSSV
 			// 
 			this.mtxtMSSV.Location = new System.Drawing.Point(127, 32);
-			this.mtxtMSSV.Mask = "0010000";
+			this.mtxtMSSV.Mask = "0000000";
 			this.mtxtMSSV.Name = "mtxtMSSV";
 			this.mtxtMSSV.Size = new System.Drawing.Size(188, 20);
 			this.mtxtMSSV.TabIndex = 24;
@@ -333,11 +334,22 @@
 			this.txtLoadTT.UseVisualStyleBackColor = true;
 			this.txtLoadTT.Click += new System.EventHandler(this.txtLoadTT_Click);
 			// 
+			// btnXoaSV
+			// 
+			this.btnXoaSV.Location = new System.Drawing.Point(59, 323);
+			this.btnXoaSV.Name = "btnXoaSV";
+			this.btnXoaSV.Size = new System.Drawing.Size(75, 23);
+			this.btnXoaSV.TabIndex = 27;
+			this.btnXoaSV.Text = "Xoá SV";
+			this.btnXoaSV.UseVisualStyleBackColor = true;
+			this.btnXoaSV.Click += new System.EventHandler(this.btnXoaSV_Click);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(652, 539);
+			this.ClientSize = new System.Drawing.Size(652, 654);
+			this.Controls.Add(this.btnXoaSV);
 			this.Controls.Add(this.txtLoadTT);
 			this.Controls.Add(this.btnXoaThongTin);
 			this.Controls.Add(this.mtxtMSSV);
@@ -407,6 +419,7 @@
 		private System.Windows.Forms.MaskedTextBox mtxtMSSV;
 		private System.Windows.Forms.Button btnXoaThongTin;
 		private System.Windows.Forms.Button txtLoadTT;
+		private System.Windows.Forms.Button btnXoaSV;
 	}
 }
 
